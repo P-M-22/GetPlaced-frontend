@@ -17,8 +17,11 @@ body{
 }
 .card{
     background-color: #894350;
+    color: white;
 }
 .button{
     padding-top: 5%;
 }
-
+#tr{
+    padding-left: 10%;
+}
