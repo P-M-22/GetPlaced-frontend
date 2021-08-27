@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Interview Experience</title>
+  </head>
+  <body>
+    <div class="container">
+        <!--<div class="bg-success p-2" style="--bs-bg-opacity: .5;"> -->
+        <form class="form-box" action="" id="feedback-form" method="POST">
+            <br><br>
+            <h3 class="display-2 text-center">Feedback and Interview Experience </h3><br>
+            <small>
+                <span class="compulsory">*</span> <span class="text-muted">Compulsory</span>
+            </small>
+            <br><br>
+            <!-- email name and roll no -->
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingemail" placeholder="name@example.com">
+                <label for="floatingemail">Email address  <span class="compulsory">*</span> </label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingname" placeholder="name">
+                <label for="floatingname">Full Name <span class="compulsory">*</span> </label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingrollno" placeholder="roll number">
+                <label for="floatingrollno">Roll Number  <span class="compulsory">*</span> </label>
+            </div>
+            <!-- Degree -->
+            <fieldset>
+                <legend class="col-form-label col-sm-2 pt-0">Degree <span class="compulsory">*</span> </legend>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDegree" id="flexRadioDefault1" >
+                <label class="form-check-label" for="flexRadioDefault1">
+                  B.Tech
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDegree" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  M.Tech
+                </label>
+            </div>
+        </fieldset>
+            <br>
+            <!-- campus -->
+            <fieldset>
+            <legend class="col-form-label col-sm-2 pt-0">Campus <span class="compulsory">*</span> </legend>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                <label class="form-check-label" for="exampleRadios1">
+                 Amritapuri
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Banglore
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                <label class="form-check-label" for="exampleRadios3">
+                  Coimbatore
+                </label>
+              </div>
+            </fieldset>
+            <br>
+            <!-- branch phoneno and company -->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingbranch" placeholder="branch">
+                <label for="floatingbranch">Branch  <span class="compulsory">*</span> </label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingphoneno" placeholder="phone number">
+                <label for="floatingphoneno">Phone Number <span class="compulsory">*</span> </label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingcompany" placeholder="company">
+                <label for="floatingcompany">Company  <span class="compulsory">*</span> </label>
+            </div>
+            <br>
+            <!-- process -->
+            <label> The process consisted of (Select all that applies) <span class="compulsory">*</span> </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck1">
+                <label class="form-check-label" for="flexCheck1">
+                  Technical MCQ
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
+                <label class="form-check-label" for="flexCheck2">
+                  Aptitude, Verbal and logical Reasoning MCQ
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
+                <label class="form-check-label" for="flexCheck3">
+                  Coding Test(s)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck4">
+                <label class="form-check-label" for="flexCheck4">
+                  Group Discussion
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck5">
+                <label class="form-check-label" for="flexCheck5">
+                  Technical Interview(s)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck6">
+                <label class="form-check-label" for="flexCheck6">
+                    Managerial Interview/HR Interview
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck7">
+                <label class="form-check-label" for="flexCheck7">
+                    Project Submission(within the given time)
+                </label>
+              </div>
+            <br>
+            <!-- resume -->
+            <label> Resume <span class="compulsory">*</span> </label>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile1">
+                <label class="input-group-text" for="inputGroupFile1">Upload</label>
+              </div>
+            <br>
+            <!-- technical domain -->
+            <label> Is there any technical domain that is very important for the placement process of this company <span class="compulsory">*</span> </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck11">
+                <label class="form-check-label" for="flexCheck11">
+                  Programming languages(C,C++,Java,Python)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck12">
+                <label class="form-check-label" for="flexCheck12">
+                  Data Structures and Algorithms
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck13">
+                <label class="form-check-label" for="flexCheck13">
+                  DBMS
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck14">
+                <label class="form-check-label" for="flexCheck14">
+                  OOPS
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck15">
+                <label class="form-check-label" for="flexCheck15">
+                  OS
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck16">
+                <label class="form-check-label" for="flexCheck16">
+                   Networks
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck17">
+                <label class="form-check-label" for="flexCheck17">
+                    Cyber Security
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck18">
+                <label class="form-check-label" for="flexCheck18">
+                  Electrical/Electronics
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck19">
+                <label class="form-check-label" for="flexCheck19">
+                  Mechanical
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck20">
+                <label class="form-check-label" for="flexCheck20">
+                  Civil
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck21">
+                <label class="form-check-label" for="flexCheck21">
+                  Chemical
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck22">
+                <label class="form-check-label" for="flexCheck22">
+                  Aerospace
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck23">
+                <label class="form-check-label" for="flexCheck23">
+                    VLSI
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck24">
+                <label class="form-check-label" for="flexCheck24">
+                    Embedded systems
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck25">
+                <label class="form-check-label" for="flexCheck25">
+                  Robotics and Automation
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck26">
+                <label class="form-check-label" for="flexCheck26">
+                  AI/ML/DL
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck27">
+                <label class="form-check-label" for="flexCheck27">
+                    Data Science/ Data Analytics
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck28">
+                <label class="form-check-label" for="flexCheck28">
+                    Bigdata
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck29">
+                <label class="form-check-label" for="flexCheck29">
+                    Block Chain
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheck30">
+                <label class="form-check-label" for="flexCheck30">
+                    Data Mining
+                </label>
+              </div>
+            <br>
+            <!-- suggestions -->
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1" style="height: 100px"></textarea>
+                <label for="floatingTextarea1">Suggestions for the juniors</label>
+              </div>
+            <br>
+            <!-- feedback and experience -->
+            <label> Feedback & Interview Experience <span class="compulsory">*</span> </label>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile2">
+                <label class="input-group-text" for="inputGroupFile2">Upload</label>
+              </div>
+            <br>
+            
+            <!-- submit -->
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit </button>
+              </div>
+            <br>
+        
+        </form>
+    </div>
+    <!--</div> -->
+    <br><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
