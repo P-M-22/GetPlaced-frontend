@@ -7,11 +7,20 @@
     font-weight: bolder;
 }
 #loginas a input{
-    font-weight: bolder;
-    font-size: 1.2em;
-    background: transparent;
-    border: 0;
+    background: #894350;
     color: white;
+    font-weight: bold;
+    font-size: large;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#loginas a input:hover{
+    background: #975b66;
 }
 #heading{
     padding-top: 20px;
