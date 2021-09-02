@@ -201,9 +201,6 @@ div h2.heading{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 7.5px;
 }
-.card-img-list{
-    width: 50%;
-}
 p.card-text{
     word-wrap: break-word;
 }
@@ -234,3 +231,11 @@ p.card-text{
     transform: scale(1.08,1.15);
 }
 
+/*Aptitude*/
+#aptitudeImage{
+    height: 35vw;
+}
+
+#verbalImage{
+    height: 60vh;
+}
