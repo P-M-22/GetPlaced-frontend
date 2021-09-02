@@ -6,6 +6,7 @@
 #mainTitle{
     font-weight: bolder;
 }
+/*LoginAs*/
 #loginas a input{
     background: #894350;
     color: white;
@@ -18,9 +19,11 @@
     padding: 5px 10px;
     text-align: center;
     letter-spacing: 1px;
+    transition: transform 0.3;
 }
 #loginas a input:hover{
     background: #975b66;
+    transform: scale(1.08,1.15);
 }
 #heading{
     padding-top: 20px;
@@ -57,6 +60,11 @@ section .card .card-body a input[type="submit"]{
     outline: none;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s;
+}
+section .card .card-body a input[type="submit"]:hover{
+    background: #975b66;
+    transform: scale(1.08,1.15);
 }
 section .card img{
     position: relative;
@@ -67,7 +75,6 @@ section .card img{
     border-radius: 10px;
     object-fit: cover;
 }
-
 section{
     position: relative;
     width: 100%;
@@ -85,6 +92,8 @@ section .heading h2{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/*Login and Registration*/
 section .imageBox{
     position: relative;
     width: 50%;
@@ -171,3 +180,57 @@ section .contentBox .formBox .inputBox p a{
     color: rgb(45, 45, 221);
     ;
 }
+
+/*Technical Skills*/
+
+div h2.heading{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: brown;
+}
+.cardList{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color:#ffc07f;
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 7.5px;
+}
+.card-img-list{
+    width: 50%;
+}
+p.card-text{
+    word-wrap: break-word;
+}
+.card-body-left{
+    text-align: left;
+    padding: 20px 20px;
+}
+.card-body-right{
+    text-align: right;
+    padding: 20px 20px;
+}
+.skillListButton input[type="submit"]{
+    background: #894350;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: transform 0.3s;
+}
+.skillListButton input[type="submit"]:hover{
+    background: #975b66;
+    transform: scale(1.08,1.15);
+}
+
