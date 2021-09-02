@@ -239,3 +239,20 @@ p.card-text{
 #verbalImage{
     height: 60vh;
 }
+
+.list-group-item
+{
+    background-color: #ffc07f;
+    border: 0px ;
+}
+
+.profpic img{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .about{
+     margin-left: 20px;
+     margin-right: 20px;
+ }
