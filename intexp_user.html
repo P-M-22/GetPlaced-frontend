@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <link href="intexp.css" rel='stylesheet'>
+    <title>UserInterview Experience</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">GetPlaced</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="studDash.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="companylist.html">Companies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="experiencelist.html" >Interview Experience</a>
+                </li>
+                </ul>
+                <span>
+                  <div class="buttonstyle">
+                    <a href="#"><input type="submit" value="Logout"></a>
+                  </div>
+                </span>
+          </div>
+      </div>
+  </nav>
+  <div class="card">
+    <div class="card-body">
+      <h3 class="card-title">Feedback and Interview Experience</h3>
+        <form>
+            <small>
+                <span class="compulsory">*</span> <span class="text-muted">Compulsory</span>
+            </small>
+            <br><br>
+            <!-- email name and roll no -->
+            <table style="width:60%">
+              <tr>
+                <td><label for="email"> <b>Email address</b> <span class="compulsory">* </span></label></td>
+                <td><input type="email" id="email" name="email"> </td>
+              </tr>
+              <tr>
+                <td><label for="name"><b>Full Name</b><span class="compulsory">*</span> </label></td>
+                <td> <input type="text" id="name" name="name"> </td>
+                
+              </tr>
+              <tr>
+                <td><label for="rollno"><b>Roll Number</b><span class="compulsory">*</span> </label></td>
+                <td><input type="text" id="rollno" name="rollno"></td>
+              </tr>
+            </table>
+            
+            <br>
+            <!-- Degree -->
+            <p><b>Degree</b><span class="compulsory">*</span></p>
+            <input type="radio" id="btech" name="deg" value="BTECH">
+            <label for="btech">B.Tech</label><br>
+            <input type="radio" id="mtech" name="deg" value="MTECH">
+            <label for="mtech">M.Tech</label><br>
+            
+            <!-- branch phoneno and company -->
+               <table style="width:60%">
+                <tr>
+                  <td><label for="branch"><b>Branch</b> <span class="compulsory">*</span> </label></td>
+                  <td><input type="text" id="branch" name="branch"> </td>
+                </tr>
+                <tr>
+                  <td><label for="phoneno"></label><b>Phone Number</b><span class="compulsory">*</span> </label></td>
+                  <td><input type="number" id="phoneno" name="phoneno"> </td>
+                  
+                </tr>
+                <tr>
+                  <td><label for="company"><b>Company</b><span class="compulsory">* </span></label></td>
+                  <td><input type="text" id="company" name="company"> </td>
+                </tr>
+              </table>
+              <br>
+            <!-- process -->
+            <label><b> The process consisted of (Select all that applies) </label></b><span class="compulsory">*</span> </label>
+            <br>
+                <input type="checkbox" value="" id="flexCheck1">
+                <label  for="flexCheck1">
+                  Technical MCQ
+                </label>
+                <br>
+                <input  type="checkbox" value="" id="flexCheck2">
+                <label  for="flexCheck2">
+                  Aptitude, Verbal and logical Reasoning MCQ
+                </label>
+                <br>
+                <input  type="checkbox" value="" id="flexCheck3">
+                <label  for="flexCheck3">
+                  Coding Test(s)
+                </label>
+              <br>
+              
+                <input  type="checkbox" value="" id="flexCheck4">
+                <label  for="flexCheck4">
+                  Group Discussion
+                </label>
+              <br>
+              
+                <input  type="checkbox" value="" id="flexCheck5">
+                <label  for="flexCheck5">
+                  Technical Interview(s)
+                </label>
+              <br>
+              
+                <input  type="checkbox" value="" id="flexCheck6">
+                <label  for="flexCheck6">
+                    Managerial Interview/HR Interview
+                </label>
+              <br>
+             
+                <input  type="checkbox" value="" id="flexCheck7">
+                <label  for="flexCheck7">
+                    Project Submission(within the given time)
+                </label>
+              
+            <br><br>
+            <!-- resume -->
+            <label><b> Resume </b><span class="compulsory">*</span> </label>
+            <br>
+            <input type="file" id="resume" name="resume">
+            <input type="submit">
+            <br><br>
+            <!-- technical domain -->
+            <label> <b>Is there any technical domain that is very important for the placement process of this company </b><span class="compulsory">*</span> </label>
+            <br>
+                <input  type="checkbox" value="" id="flexCheck11">
+                <label  for="flexCheck11">
+                  Programming languages(C,C++,Java,Python)
+                </label>
+              <br>
+              
+                <input  type="checkbox" value="" id="flexCheck12">
+                <label  for="flexCheck12">
+                  Data Structures and Algorithms
+                </label>
+                <br>
+              
+                <input  type="checkbox" value="" id="flexCheck13">
+                <label  for="flexCheck13">
+                  DBMS
+                </label>
+                <br>
+             
+                <input  type="checkbox" value="" id="flexCheck14">
+                <label  for="flexCheck14">
+                  OOPS
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck15">
+                <label  for="flexCheck15">
+                  OS
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck16">
+                <label  for="flexCheck16">
+                   Networks
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck17">
+                <label  for="flexCheck17">
+                    Cyber Security
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck18">
+                <label  for="flexCheck18">
+                  Electrical/Electronics
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck19">
+                <label  for="flexCheck19">
+                  Mechanical
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck20">
+                <label  for="flexCheck20">
+                  Civil
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck21">
+                <label  for="flexCheck21">
+                  Chemical
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck22">
+                <label  for="flexCheck22">
+                  Aerospace
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck23">
+                <label  for="flexCheck23">
+                    VLSI
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck24">
+                <label  for="flexCheck24">
+                    Embedded systems
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck25">
+                <label  for="flexCheck25">
+                  Robotics and Automation
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck26">
+                <label  for="flexCheck26">
+                  AI/ML/DL
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck27">
+                <label  for="flexCheck27">
+                    Data Science/ Data Analytics
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck28">
+                <label  for="flexCheck28">
+                    Bigdata
+                </label>
+                <br>
+
+                <input c type="checkbox" value="" id="flexCheck29">
+                <label  for="flexCheck29">
+                    Block Chain
+                </label>
+                <br>
+
+                <input  type="checkbox" value="" id="flexCheck30">
+                <label  for="flexCheck30">
+                    Data Mining
+                </label>
+              
+            <br><br>
+            <!-- suggestions -->
+            <label for="textarea1"><b>Suggestions for the juniors</b></label>
+            <br>
+            <textarea id="textarea1"name="message" style="width:600px; height:100px;"></textarea>
+            <br><br>
+            <!-- feedback and experience -->
+            <label for="feedback"><b> Feedback & Interview Experience </b> <span class="compulsory">*</span> <br> upload the feedback pdf in drive and paste the link below  </label> <br>
+            <input type="url" id="feedback" name="feedback">
+            <br><br>
+            <!-- submit -->
+            <div class="buttonstyle">
+            <input type="submit" value="Submit">
+            </div>
+        
+        </form>
+      </div>
+    </div>
+    <!--</div> -->
+    <br><br>
+  </body>
+</html>

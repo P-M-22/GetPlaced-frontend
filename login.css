@@ -34,9 +34,11 @@ body{
     padding: 5px 10px;
     text-align: center;
     letter-spacing: 1px;
+    transition: transform 0.3s;
 }
 .buttonstyle input[type="submit"]:hover{
     background: #975b66;
+    transform: scale(1.08,1.15);
 }
 .card-img-overlay{
     text-align: left;
@@ -47,6 +49,9 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 7.5px;
+    border: none;
 }
 .card-img{
     width: 100%;
@@ -55,4 +60,35 @@ body{
 }
 #middletext{
     text-align: center;
+}
+table,th,td{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #ffffff;
+}
+table td:hover{
+    background-color: #ff9d7f;
+}
+table{
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  border: 0;
+}
+.tableofcontents{
+    padding-left: 20%;
+}
+.search{
+    padding-bottom: 1%;
+}
+ul{
+    list-style-type: none;
+}
+
+.bi{
+    font-size:xx-large;
+}
+.info{
+    text-align: left;
 }
